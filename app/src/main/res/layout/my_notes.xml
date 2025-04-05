@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="393dp"
+    android:layout_height="852dp"
+    android:background="#FFE2BD">
+
+    <!-- Top Rounded Input Box -->
+    <EditText
+        android:id="@+id/searchBar"
+        android:layout_width="337dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="28dp"
+        android:background="@drawable/rounded_border_input"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="12dp"
+        android:hint="Search..."
+        android:textColorHint="#888888"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"/>
+
+    <!-- Header Text -->
+    <TextView
+        android:id="@+id/discoverNotes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="188dp"
+        android:layout_marginStart="28dp"
+        android:text="Discover Notes"
+        android:textColor="#2E1F27"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"/>
+
+    <!-- Reusable note card layout -->
+    <LinearLayout
+        android:id="@+id/card1"
+        android:layout_width="244dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="252dp"
+        android:layout_marginStart="28dp"
+        android:orientation="horizontal"
+        android:background="@drawable/rounded_white_border"
+        android:gravity="center_vertical">
+
+        <View
+            android:layout_width="51dp"
+            android:layout_height="51dp"
+            android:layout_marginStart="13dp"
+            android:background="@drawable/circle_yellow"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NLP"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_marginStart="13dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/card2"
+        android:layout_width="244dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="349dp"
+        android:layout_marginStart="28dp"
+        android:orientation="horizontal"
+        android:background="@drawable/rounded_white_border"
+        android:gravity="center_vertical">
+
+        <View
+            android:layout_width="51dp"
+            android:layout_height="51dp"
+            android:layout_marginStart="13dp"
+            android:background="@drawable/circle_blue"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NLP"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_marginStart="13dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/card3"
+        android:layout_width="244dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="446dp"
+        android:layout_marginStart="28dp"
+        android:orientation="horizontal"
+        android:background="@drawable/rounded_white_border"
+        android:gravity="center_vertical">
+
+        <View
+            android:layout_width="51dp"
+            android:layout_height="51dp"
+            android:layout_marginStart="13dp"
+            android:background="@drawable/circle_pink"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NLP"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_marginStart="13dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/card4"
+        android:layout_width="244dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="543dp"
+        android:layout_marginStart="28dp"
+        android:orientation="horizontal"
+        android:background="@drawable/rounded_white_border"
+        android:gravity="center_vertical">
+
+        <View
+            android:layout_width="51dp"
+            android:layout_height="51dp"
+            android:layout_marginStart="13dp"
+            android:background="@drawable/circle_teal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NLP"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_marginStart="13dp"/>
+    </LinearLayout>
+
+    <!-- Bottom Bar -->
+    <View
+        android:layout_width="475dp"
+        android:layout_height="119dp"
+        android:layout_marginTop="733dp"
+        android:layout_marginStart="-51dp"
+        android:background="#FF7F50"/>
+
+    <!-- Center FAB -->
+    <View
+        android:layout_width="93dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="746dp"
+        android:layout_marginStart="140dp"
+        android:background="@drawable/circle_orange_border"/>
+
+    <!-- FAB Plus Icon -->
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="769dp"
+        android:layout_marginStart="163dp"
+        android:src="@drawable/plus"/>
+</RelativeLayout>
