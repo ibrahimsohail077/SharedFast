@@ -155,6 +155,5 @@
         android:layout_width="48dp"
         android:layout_height="48dp"
         android:layout_marginTop="769dp"
-        android:layout_marginStart="163dp"
-        android:src="@drawable/plus"/>
+        android:layout_marginStart="163dp" />
 </RelativeLayout>

@@ -46,8 +46,6 @@
         android:layout_marginStart="28dp"
         android:padding="12dp"
         android:text="Placeholder Text"
-        android:textColor="@color/text_default"
-        android:background="@drawable/rounded_full"
         android:gravity="start|center_vertical" />
 
     <!-- Date Text -->
@@ -109,6 +107,5 @@
         android:layout_marginTop="664dp"
         android:background="@drawable/circle_button"
         android:rotation="180"
-        android:src="@drawable/arrowleft"
         android:scaleType="centerInside" />
 </RelativeLayout>
